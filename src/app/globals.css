@@ -10,10 +10,10 @@
 }
 
 @theme inline {
-  --font-sans: var(--font-noto-sans), "Apple SD Gothic Neo", "Malgun Gothic",
-    sans-serif;
-  --font-serif: var(--font-noto-serif), "Apple SD Gothic Neo", "Malgun Gothic",
-    serif;
+  --font-sans: "Pretendard", "Apple SD Gothic Neo", "Noto Sans KR",
+    "Malgun Gothic", "Segoe UI", system-ui, sans-serif;
+  --font-serif: "Noto Serif KR", "Nanum Myeongjo", "AppleMyungjo", "Batang",
+    "Malgun Gothic", serif;
 }
 
 body {
