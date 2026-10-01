@@ -1,0 +1,38 @@
+@import "tailwindcss";
+
+@theme {
+  --color-paper: #f7f3ea; /* ivory */
+  --color-sand: #e8dfcd; /* natural beige */
+  --color-ink: #1f1d1a; /* ink black, ~15:1 on paper */
+  --color-muted: #5c564c; /* ~6.5:1 on paper */
+  --color-accent: #3f6256; /* celadon-dark, ~6.5:1 on paper, white text ok */
+  --color-danger: #9b2c1f; /* ~6.8:1 on paper */
+}
+
+@theme inline {
+  --font-sans: var(--font-noto-sans), "Apple SD Gothic Neo", "Malgun Gothic",
+    sans-serif;
+  --font-serif: var(--font-noto-serif), "Apple SD Gothic Neo", "Malgun Gothic",
+    serif;
+}
+
+body {
+  background: var(--color-paper);
+  color: var(--color-ink);
+  font-family: var(--font-sans);
+}
+
+dialog::backdrop {
+  background: rgb(31 29 26 / 0.5);
+}
+
+html:has(dialog[open]) {
+  overflow: hidden;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    scroll-behavior: auto !important;
+    transition: none !important;
+  }
+}

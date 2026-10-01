@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img">
+  <rect width="800" height="600" fill="#e8dfcd"/>
+  <circle cx="610" cy="140" r="70" fill="#f7f3ea"/>
+  <rect y="470" width="800" height="130" fill="#d9ceb7"/>
+  <rect y="466" width="800" height="4" fill="#1f1d1a" opacity="0.15"/>
+  <!-- ceramic jar -->
+  <path d="M250 190 Q250 170 270 170 H330 Q350 170 350 190 Q350 215 380 250 Q420 300 420 370 Q420 470 335 470 H265 Q180 470 180 370 Q180 300 220 250 Q250 215 250 190 Z" fill="#f7f3ea" stroke="#1f1d1a" stroke-width="3"/>
+  <path d="M215 290 Q300 320 385 290" fill="none" stroke="#3f6256" stroke-width="3"/>
+  <path d="M200 340 Q300 372 400 340" fill="none" stroke="#3f6256" stroke-width="3"/>
+  <!-- wooden plate -->
+  <ellipse cx="560" cy="452" rx="150" ry="22" fill="#b89a6e"/>
+  <ellipse cx="560" cy="440" rx="150" ry="22" fill="#cdb28a" stroke="#1f1d1a" stroke-width="3"/>
+  <ellipse cx="560" cy="440" rx="105" ry="13" fill="none" stroke="#8a6f47" stroke-width="2"/>
+  <ellipse cx="560" cy="440" rx="60" ry="7" fill="none" stroke="#8a6f47" stroke-width="2"/>
+  <!-- folded bojagi cloth -->
+  <path d="M470 400 L650 400 L670 380 L490 380 Z" fill="#3f6256" stroke="#1f1d1a" stroke-width="3"/>
+  <path d="M490 380 L670 380 L650 360 L510 360 Z" fill="#5a8274" stroke="#1f1d1a" stroke-width="3"/>
+  <path d="M470 400 L470 430 L650 430 L650 400" fill="#3f6256" stroke="#1f1d1a" stroke-width="3"/>
+  <path d="M560 400 V430 M470 415 H650" stroke="#f7f3ea" stroke-width="2" opacity="0.7"/>
+</svg>
